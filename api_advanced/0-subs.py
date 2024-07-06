@@ -19,3 +19,4 @@ def number_of_subscribers(subreddit):
             return 0
         body = json.loads(result.text)
         return body["data"]["subscribers"]
+    
